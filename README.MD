@@ -17,3 +17,9 @@ php -S localhost:8000 -t src
 ```
 
 Open `http://localhost:8000/De%V6.php` in your browser to test the redirect
+
+
+# Create new short url
+
+1. Copy `De%V6.php` into a new file with a name you wish to use
+2. Update the target url, link and page title
