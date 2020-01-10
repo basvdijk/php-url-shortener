@@ -13,8 +13,7 @@ php-url-shortener is an url shortener with Google Analytics page tracking.
 
 ## Run the PHP development server
 ```
-cd src
-php -S localhost:8000
+php -S localhost:8000 -t src
 ```
 
 Open `http://localhost:8000/De%V6.php` in your browser to test the redirect
