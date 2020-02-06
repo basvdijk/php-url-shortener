@@ -7,7 +7,7 @@ if (!defined("BM")) {
 define("CF", "1");
 include_once("config.php");
 
-function track_pageview($target_url, $page_link, $title) {
+function track_pageview($page_link, $title, $target_url) {
 
     $data = array(
         "t" => "pageview", // hit_type
